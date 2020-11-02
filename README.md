@@ -1,9 +1,10 @@
 # 2020京东多模态对话JDMDC2020第二名解决方案
 
-[JDMDC2020官网：http://jddc.jd.com/](http://jddc.jd.com)
+[JDMDC2020官网：http://jddc.jd.com](http://jddc.jd.com)
 
 Hibot团队成绩：初赛第三，决赛第二
 
+Hibot队员：林克，茸茸，阿布，杰瑞
 
 ## 数据工作
 
