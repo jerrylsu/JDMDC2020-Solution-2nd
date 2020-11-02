@@ -1,6 +1,6 @@
 # 2020京东多模态对话JDMDC2020第二名解决方案
 
-[JDMDC2020官网：http://jddc.jd.com/](http://jddc.jd.com/)
+[JDMDC2020官网：http://jddc.jd.com/](http://jddc.jd.com)
 
 成绩：初赛第三，决赛第二
 
@@ -8,9 +8,9 @@
 
 ### 数据集探索
 
-![data_eda1](doc/images/data_eda1.jpg)
+![data_eda1](./doc/images/data_eda1.jpg)
 
-![data_eda2](doc/images/data_eda2.jpg)
+![data_eda2](./doc/images/data_eda2.jpg)
 
 ### 数据预处理
 
@@ -72,21 +72,39 @@
 
 
 [1] Kishore Papineni, Salim Roukos, et al. BLEU: a Method for Automatic Evaluation of Machine Translation 
+
 [2] Boxing Chen, Colin Cherry et al. A Systematic Comparison of Smoothing Techniques for Sentence-Level BLEU
+
 [3] Amrita Saha, Mitesh Khapra, et al. Towards Building Large Scale Multimodal Domain-Aware Conversation Systems
+
 [4] Minh-Thang Luong, Hieu Pham, et al. Effective Approaches to Attention-based Neural Machine Translation
+
 [5] Ashish Vaswani, Noam Shazeer,  et al. Attention Is All You Need
+
 [6] Jacob Devlin, Ming-Wei Chang, et al. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+
 [7] Alec Radford, Karthik Narasimhan, et al. Improving Language Understanding by Generative Pre-Training 
+
 [8] Alec Radford, Jeffrey Wu,  et al. Language Models are Unsupervised Multitask Learners 
+
 [9] https://huggingface.co - transformers
+
 [10] Thomas Wolf, Victor Sanh, et al. TransferTransfo: A Transfer Learning Approach for Neural Network Based Conversational Agents
+
 [11] https://github.com/huggingface/transfer-learning-conv-ai
+
 [12] https://jalammar.github.io/illustrated-transformer
+
 [13] Rafael Müller, Simon Kornblith, st al. when does label smoothing help?
+
 [14] https://huggingface.co/transformers/model_doc/gpt2.html#gpt2doubleheadsmodel
+
 [15] https://huggingface.co/bert-base-chinese
+
 [16] https://github.com/qingkongzhiqian/GPT2-Summary
+
 [17] https://cloud.tsinghua.edu.cn/f/4dfb8c6c22ae47fbbe98/
+
 [18] Yida Wang, Pei Ke, et al. A Large-Scale Chinese Short-Text Conversation Dataset
+
 [19] Yizhe Zhang, Siqi Sun,  et al. DialoGPT:Large-Scale Generative Pre-training for Conversational Response Generation
