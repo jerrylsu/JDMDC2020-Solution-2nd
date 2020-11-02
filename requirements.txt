@@ -1,0 +1,2 @@
+pytorch-ignite==0.4.1
+transformers==2.5.1
