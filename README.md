@@ -2,15 +2,20 @@
 
 [JDMDC2020官网：http://jddc.jd.com/](http://jddc.jd.com)
 
-成绩：初赛第三，决赛第二
+Hibot团队成绩：初赛第三，决赛第二
+
 
 ## 数据工作
 
 ### 数据集探索
 
-![data_eda1](./doc/images/data_eda1.jpg)
+数据分为五个字段：会话ID, 店铺类别， 商品ID， 对话文本（包含图片ID）， 对话角色。通过商品ID与图片ID，来引用商品知识库数据和图片模态数据。
 
-![data_eda2](./doc/images/data_eda2.jpg)
+![data_eda1](doc/images/data_eda1.jpg)
+
+统计原始会话（连续QQAA未合并）轮数长度以及单句文本长度（按字）。
+
+![data_eda2](doc/images/data_eda2.jpg)
 
 ### 数据预处理
 
@@ -29,6 +34,10 @@
 ## 技术方案
 
 ### 基线模型MHRED
+
+官方提供基线生成模型MHRED：https://github.com/jd-aig/nlp_baai/tree/master/jddc2020_baseline/mhred/pytorch
+
+基线模型MHRED复现BLEU分为：3.3853，在基线的基础上，我们加入了注意力机制BLEU提分到：5.6237。
 
 ![mhred](doc/images/baseline_mhred.jpg)
 
@@ -103,7 +112,7 @@
 
 [16] https://github.com/qingkongzhiqian/GPT2-Summary
 
-[17] https://cloud.tsinghua.edu.cn/f/4dfb8c6c22ae47fbbe98/
+[17] https://cloud.tsinghua.edu.cn/f/4dfb8c6c22ae47fbbe98
 
 [18] Yida Wang, Pei Ke, et al. A Large-Scale Chinese Short-Text Conversation Dataset
 
